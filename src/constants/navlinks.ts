@@ -9,7 +9,7 @@ export const navLinks = [
     },
     {
         name: "Resources",
-        link: "/resources"
+        link: "#"
     },
     {
         name: "Pricing",
@@ -17,6 +17,6 @@ export const navLinks = [
     },
     {
         name: "Contact",
-        link: "/contact",
+        link: "#",
     },
 ];

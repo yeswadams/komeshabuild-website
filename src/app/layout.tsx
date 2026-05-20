@@ -17,9 +17,35 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "KomeshaBuild",
-  description: "Best Cx Software",
+  metadataBase: new URL("https://komeshabuild.com"),
+  title: {
+    default: "KomeshaBuild | Construction QA & Compliance Platform",
+    template: "%s | KomeshaBuild",
+  },
+  description: "Eliminate structural re-work, automate building code compliance, and coordinate field teams instantly with the modern digital workspace built for developers and general contractors.",
+  keywords: ["construction QA", "building compliance", "field inspection logs", "slump tests", "structural auditing", "Kenya building codes", "commissioning software"],
+  authors: [{ name: "KomeshaBuild Team" }],
+  creator: "KomeshaBuild",
+  publisher: "KomeshaBuild",
+  robots: {
+    index: true,
+    follow: true,
+  },
+  openGraph: {
+    type: "website",
+    locale: "en_KE",
+    url: "https://komeshabuild.com",
+    title: "KomeshaBuild | Construction QA & Compliance Platform",
+    description: "Eliminate structural re-work, automate building code compliance, and coordinate field teams with the modern digital workspace built for developers and general contractors.",
+    siteName: "KomeshaBuild",
+  },
+  twitter: {
+    card: "summary_large_image",
+    title: "KomeshaBuild | Construction QA & Compliance Platform",
+    description: "Eliminate structural re-work, automate building code compliance, and coordinate field teams with the modern digital workspace built for developers and general contractors.",
+  },
 };
+
 
 export default function RootLayout({
   children,

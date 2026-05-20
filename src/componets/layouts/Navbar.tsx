@@ -60,12 +60,16 @@ const Navbar = () => {
         <div className="flex flex-row items-center gap-2">
           <Link 
             href="/signup" 
+            target="_blank"
+            rel="noopener noreferrer"
             className="flex flex-row items-center gap-3 px-3 py-2 text-sm font-medium hover:underline"
           >
-            Get Started <ChevronRight className="w-3.5 h-3.5"/>
+            Book a Demo <ChevronRight className="w-3.5 h-3.5"/>
           </Link>
           <Link 
-            href="/login" 
+            href="https://app.komeshabuild.xyz/sign-in" 
+            target="_blank"
+            rel="noopener noreferrer"
             className="rounded-lg text-sm font-medium bg-[var(--primaryblue)] text-white px-5 py-2 transition-opacity hover:opacity-90"
           >
             Sign In
