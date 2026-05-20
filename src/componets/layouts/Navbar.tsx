@@ -59,7 +59,7 @@ const Navbar = () => {
         {/* Auth Buttons */}
         <div className="flex flex-row items-center gap-2">
           <Link 
-            href="/signup" 
+            href="https://cal.com/komeshabuild/komeshabuild-demo" 
             target="_blank"
             rel="noopener noreferrer"
             className="flex flex-row items-center gap-3 px-3 py-2 text-sm font-medium hover:underline"
